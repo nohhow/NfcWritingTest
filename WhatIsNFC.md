@@ -24,7 +24,9 @@ NFC 사용 가능 Android 기기 에서는 다음 세 가지 기본 작업 모�
 여기서 내가 사용하려고 하는 NFC 모드는 태그/스티커를 사용할 것이기 때문에 ::**읽기/쓰기 모드**::를 사용할 것이다.
 
 NDEF는 jpg,png와 같은 확장자처럼 이해할 수 있을 것 같다. NFC에서는 NDEF 방식으로 데이터를 저장한다.
-[image:9E251D42-843D-48B6-B4BB-D006EB7F2731-12364-000050E4CDB0EB07/스크린샷 2021-01-13 오후 6.17.05.png]
+
+<img width="606" alt="스크린샷 2021-01-13 오후 6 17 05" src="https://user-images.githubusercontent.com/61059893/119166486-a4a56f00-ba99-11eb-99fb-7fd138dba749.png">
+
 NDEF는 위와 같이 구성되어있다. 
 [안드로이드 NFC 읽기/쓰기 : 네이버 블로그](https://m.blog.naver.com/ninace/80211294933)
 ---
@@ -52,5 +54,6 @@ Android 단말에서는 주로 NDEF 메시지를 Tag로 부터 읽어들이거�
 * NDEF 메시지가 아니거나 처리할 Activity 없으면, TECH_DISCOVERED를 가진 Activity 중 처리할 Activity를 찾아 전달한다.
 * 처리할 Activity가 없으면, TAG_DISCOVERED를 가지고 있는 Activity로 TAG를 전달한다.
 
-[image:8D417627-991F-402C-845B-31D421F7C4B8-12364-0000571BE0EAE215/스크린샷 2021-01-13 오후 8.50.04.png]
+<img width="620" alt="스크린샷 2021-01-13 오후 8 50 04" src="https://user-images.githubusercontent.com/61059893/119166526-af600400-ba99-11eb-84d5-f0c9389bd8ea.png">
+
 
