@@ -6,79 +6,79 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+8-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+9-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 10
 11    <uses-feature
-11-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:5:5-7:35
+11-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:5:5-7:35
 12        android:name="android.hardware.nfc"
-12-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:6:9-44
+12-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:6:9-44
 13        android:required="false" />
-13-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:7:9-33
+13-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:7:9-33
 14
 15    <uses-permission android:name="android.permission.NFC" />
-15-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:8:5-61
-15-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:8:22-59
+15-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:8:5-61
+15-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:8:22-59
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:9:5-66
-16-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:9:22-64
+16-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:9:5-66
+16-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:9:22-64
 17
 18    <application
-18-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:11:5-36:19
+18-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:11:5-36:19
 19        android:allowBackup="true"
-19-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:12:9-35
+19-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:12:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.1.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@drawable/appicon"
-22-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:13:9-41
+22-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:13:9-41
 23        android:label="@string/app_name"
-23-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:14:9-41
+23-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:14:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:15:9-54
+24-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:15:9-54
 25        android:supportsRtl="true"
-25-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:16:9-35
+25-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:16:9-35
 26        android:testOnly="true"
 27        android:theme="@style/AppTheme"
-27-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:17:9-40
+27-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:17:9-40
 28        android:usesCleartextTraffic="true" >
-28-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:18:9-44
+28-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:18:9-44
 29        <activity android:name="com.example.nfcTest2.MainActivity" >
-29-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:20:9-26:20
-29-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:20:19-47
+29-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:20:9-26:20
+29-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:20:19-47
 30            <intent-filter>
-30-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:21:13-25:29
+30-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:21:13-25:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:22:17-69
-31-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:22:25-66
+31-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:22:17-69
+31-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:22:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:24:17-77
-33-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:24:27-74
+33-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:24:17-77
+33-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:24:27-74
 34            </intent-filter>
 35        </activity>
 36        <activity android:name="com.example.nfcTest2.subActivity" >
-36-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:27:9-35:20
-36-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:27:19-46
+36-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:27:9-35:20
+36-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:27:19-46
 37            <intent-filter>
-37-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:28:13-34:29
+37-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:28:13-34:29
 38                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-38-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:29:17-77
-38-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:29:25-74
+38-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:29:17-77
+38-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:29:25-74
 39
 40                <category android:name="android.intent.category.DEFAULT" />
-40-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:30:17-75
-40-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:30:27-73
+40-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:30:17-75
+40-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:30:27-73
 41
 42                <data
-42-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:31:17-33:56
+42-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:31:17-33:56
 43                    android:host="developer.android.com"
-43-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:32:21-57
+43-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:32:21-57
 44                    android:pathPrefix="/index.html"
-44-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:33:21-53
+44-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:33:21-53
 45                    android:scheme="http" />
-45-->/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:31:23-44
+45-->/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:31:23-44
 46            </intent-filter>
 47        </activity>
 48    </application>

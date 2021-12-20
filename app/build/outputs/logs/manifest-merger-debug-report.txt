@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/ce61250d0f7070aaab97d5c03ab2ab2e/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -25,39 +25,39 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nojinhyeon/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/ed8cc0ac00b11c0234ef1e5a578c70c1/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/df4d09f70e3f533a2fede8f96085147c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/c16c855844b564ee7204d4d6005470fb/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:3:5-35
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:1-38:12
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.nfc
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:5:5-7:35
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:5:5-7:35
 	android:required
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:7:9-33
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:7:9-33
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:6:9-44
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:6:9-44
 uses-permission#android.permission.NFC
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:8:5-61
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:8:5-61
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:8:22-59
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:8:22-59
 uses-permission#android.permission.INTERNET
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:9:5-66
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:9:22-64
 application
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:11:5-36:19
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:11:5-36:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:5-89
@@ -67,59 +67,59 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/noji
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:13:9-41
 	android:allowBackup
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:17:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:18:9-44
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:18:9-44
 activity#com.example.nfcTest2.MainActivity
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:20:9-26:20
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:20:19-47
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:20:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.example.nfcTest2.subActivity
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:27:9-35:20
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:27:9-35:20
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:27:19-46
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:27:19-46
 intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:host:developer.android.com+data:pathPrefix:/index.html+data:scheme:http
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:28:13-34:29
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:28:13-34:29
 action#android.nfc.action.NDEF_DISCOVERED
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:29:25-74
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:29:25-74
 category#android.intent.category.DEFAULT
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:30:17-75
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:30:17-75
 	android:name
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:30:27-73
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:30:27-73
 data
-ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:31:17-33:56
+ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:31:17-33:56
 	android:host
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:32:21-57
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:32:21-57
 	android:scheme
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:31:23-44
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:31:23-44
 	android:pathPrefix
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml:33:21-53
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml:33:21-53
 uses-sdk
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
@@ -162,13 +162,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nojinhyeon
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/df4d09f70e3f533a2fede8f96085147c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/c16c855844b564ee7204d4d6005470fb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nojinhyeon/.gradle/caches/transforms-2/files-2.1/c16c855844b564ee7204d4d6005470fb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/AndroidManifest.xml

@@ -45,13 +45,13 @@ public class subActivity extends Activity {
                 mNfcPendingIntent = PendingIntent.getActivity(subActivity.this, 0,
                         new Intent(subActivity.this, subActivity.class).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0);
 
-                enableTagWriteMode();
+//                enableTagWriteMode();
 
                 new AlertDialog.Builder(subActivity.this).setTitle("Touch tag to write")
                         .setOnCancelListener(new DialogInterface.OnCancelListener() {
                             @Override
                             public void onCancel(DialogInterface dialog) {
-                                disableTagWriteMode();
+//                                disableTagWriteMode();
                             }
 
                         }).create().show();
@@ -60,72 +60,4 @@ public class subActivity extends Activity {
 
     }
 
-    private void enableTagWriteMode() {
-        mWriteMode = true;
-        IntentFilter tagDetected = new IntentFilter(NfcAdapter.ACTION_TAG_DISCOVERED);
-        IntentFilter[] mWriteTagFilters = new IntentFilter[] { tagDetected };
-        mNfcAdapter.enableForegroundDispatch(this, mNfcPendingIntent, mWriteTagFilters, null);
-    }
-
-    private void disableTagWriteMode() {
-        mWriteMode = false;
-        mNfcAdapter.disableForegroundDispatch(this);
-    }
-
-    @Override
-    protected void onNewIntent(Intent intent) {
-        // Tag writing mode
-        if (mWriteMode && NfcAdapter.ACTION_TAG_DISCOVERED.equals(intent.getAction())) {
-            Tag detectedTag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
-            NdefRecord record = NdefRecord.createUri("https://poplme.co/"+((TextView)findViewById(R.id.uri)).getText().toString());
-            //NdefRecord record = NdefRecord.createMime( ((TextView)findViewById(R.id.mime)).getText().toString(), ((TextView)findViewById(R.id.value)).getText().toString().getBytes());
-            NdefMessage message = new NdefMessage(new NdefRecord[] { record });
-            if (writeTag(message, detectedTag)) {
-                Toast.makeText(this, "기록 성공! : nfc가 기록되었습니다. ", Toast.LENGTH_LONG)
-                        .show();
-            }
-        }
-    }
-
-    /*
-     * Writes an NdefMessage to a NFC tag
-     */
-    public boolean writeTag(NdefMessage message, Tag tag) {
-        int size = message.toByteArray().length;
-        try {
-            Ndef ndef = Ndef.get(tag);
-            if (ndef != null) {
-                ndef.connect();
-                if (!ndef.isWritable()) {
-                    Toast.makeText(getApplicationContext(),
-                            "Error: tag not writable",
-                            Toast.LENGTH_SHORT).show();
-                    return false;
-                }
-                if (ndef.getMaxSize() < size) {
-                    Toast.makeText(getApplicationContext(),
-                            "Error: tag too small",
-                            Toast.LENGTH_SHORT).show();
-                    return false;
-                }
-                ndef.writeNdefMessage(message);
-                return true;
-            } else {
-                NdefFormatable format = NdefFormatable.get(tag);
-                if (format != null) {
-                    try {
-                        format.connect();
-                        format.format(message);
-                        return true;
-                    } catch (IOException e) {
-                        return false;
-                    }
-                } else {
-                    return false;
-                }
-            }
-        } catch (Exception e) {
-            return false;
-        }
-    }
 }

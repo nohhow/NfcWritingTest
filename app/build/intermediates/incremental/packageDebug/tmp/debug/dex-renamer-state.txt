@@ -1,4 +1,4 @@
-#Fri May 21 00:13:03 KST 2021
-base.0=/Users/nojinhyeon/AndroidStudioProjects/nfcTest2/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Mon Dec 20 14:30:33 KST 2021
+base.0=/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

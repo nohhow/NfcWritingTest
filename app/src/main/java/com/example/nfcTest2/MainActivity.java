@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
         mWebSettings.setCacheMode(WebSettings.LOAD_NO_CACHE); // 브라우저 캐시허용 여부
         mWebSettings.setDomStorageEnabled(true); // 로컬 저장소 허용 여부
 
-        mWebView.loadUrl("https://poplme.co/noh-1"); // 웹뷰에 표시할 웹사이트 주소, 웹뷰 시작!
+        mWebView.loadUrl("https://nocode-wemstaging.jtopft.com/sasangenterpoint"); // 웹뷰에 표시할 웹사이트 주소, 웹뷰 시작!
     }
 
 
