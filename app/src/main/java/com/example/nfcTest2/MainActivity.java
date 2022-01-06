@@ -17,6 +17,8 @@ import android.nfc.tech.NdefFormatable;
 import android.os.Bundle;
 import android.provider.Browser;
 import android.view.View;
+import android.webkit.ValueCallback;
+import android.webkit.WebChromeClient;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,14 +32,33 @@ public class MainActivity extends Activity {
     //webView 변수 선언
     private WebView mWebView; // 웹뷰 선언
     private WebSettings mWebSettings; //웹뷰셋팅
+    public static final int IMAGE_SELECTOR_REQ = 1;
+    private ValueCallback mFilePathCallback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub);
 
+
         //웹뷰 시작
         mWebView = (WebView) findViewById(R.id.myBlog);
+
+        mWebView.setWebChromeClient(new WebChromeClient() {
+            @Override
+            public boolean onShowFileChooser(WebView webView, ValueCallback filePathCallback, WebChromeClient.FileChooserParams fileChooserParams) {
+                mFilePathCallback = filePathCallback;
+                Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+
+                // 여러장의 사진을 선택하는 경우
+                intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
+                intent.addCategory(Intent.CATEGORY_OPENABLE);
+                intent.setType("image/*");
+
+                startActivityForResult(Intent.createChooser(intent, "Select picture"), IMAGE_SELECTOR_REQ);
+                return true;
+            }
+        });
 
         mWebView.setWebViewClient(new MyWebClient()); // 클릭시 새창이 뜨지 않게
         mWebSettings = mWebView.getSettings(); // 세부 세팅 등록
@@ -52,7 +73,27 @@ public class MainActivity extends Activity {
         mWebSettings.setCacheMode(WebSettings.LOAD_NO_CACHE); // 브라우저 캐시허용 여부
         mWebSettings.setDomStorageEnabled(true); // 로컬 저장소 허용 여부
 
-        mWebView.loadUrl("https://nocode-wemstaging.jtopft.com/sasangenterpoint"); // 웹뷰에 표시할 웹사이트 주소, 웹뷰 시작!
+        mWebView.loadUrl("https://nocode-wem.jtopft.com/sasangenterpoint"); // 웹뷰에 표시할 웹사이트 주소, 웹뷰 시작!
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == IMAGE_SELECTOR_REQ) {
+            if (resultCode == Activity.RESULT_OK) {
+                if (data.getClipData() != null) {
+                    int count = data.getClipData().getItemCount();
+                    Uri[] uris = new Uri[count];
+                    for (int i = 0; i < count; i++) {
+                        uris[i] = data.getClipData().getItemAt(i).getUri();
+                    }
+                    mFilePathCallback.onReceiveValue(uris);
+                }
+                else if (data.getData() != null) {
+                    mFilePathCallback.onReceiveValue((new Uri[]{data.getData()}));
+                }
+            }
+        }
     }
 
 

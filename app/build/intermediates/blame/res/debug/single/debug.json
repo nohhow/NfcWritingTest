@@ -24,16 +24,16 @@
         "source": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/res/merged/debug/drawable_nfcbtn.png.flat",
         "source": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/res/drawable/nfcbtn.png"
     },
     {
-        "merged": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",

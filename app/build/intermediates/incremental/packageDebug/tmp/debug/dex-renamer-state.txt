@@ -1,4 +1,4 @@
-#Mon Dec 20 14:30:33 KST 2021
+#Thu Jan 06 04:23:30 KST 2022
 base.0=/Users/nojinhyeon/AndroidStudioProjects/nfcWritingTest/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
